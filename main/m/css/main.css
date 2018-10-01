@@ -1,0 +1,344 @@
+html,body{height: 100%;}
+body {overflow-x: hidden;}
+
+/* mobile header 디자인 시작 */
+@media only screen and (min-width: 320px) {
+header {
+	width: 100%;
+	box-sizing: border-box;
+	text-align: center;
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+header nav {
+	width: 100%;
+	position: absolute;
+	top: -1110px;
+	left: 0;
+	z-index: 999;
+	text-align: left;
+	transition: all .2s ease-in-out;
+	-webkit-transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	   -moz-transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+	    -ms-transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+		 -o-transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+		    transition: all .6s cubic-bezier(0.190, 1.000, 0.220, 1.000);
+}    
+header.hambeger_show nav {
+	height: 100vh;
+	top: 0;
+	color: #fff;
+	background-color: #ed3c5f;
+}
+header .header_bg {
+	padding-top: 25px;
+	padding: 13px 0; 
+    box-sizing: border-box;
+}
+header .header_bg.small {
+	background-color: rgba(255, 255, 255, 0.9);
+	box-shadow:0 0.5px 1px rgba(0, 0, 0, 0.33); 
+}
+header .header_bg.small .hambeger_first,
+header .header_bg.small .hambeger_two,
+header .header_bg.small .hambeger_three{
+    background-color: #000;
+}
+
+header .header_bg.small .manu {color: #000;}
+
+header nav .tbl_hei {height: 100%;}
+header nav .tbl_hei .maun_tit{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 15px 30px 0 0;
+    box-sizing: border-box;
+}
+header nav .tbl_hei .maun_tit h2 {color: #fff;} 
+header nav .tbl_hei .maun_tit h2 .titex {padding-right: 10px;}
+
+header nav .tbl {
+	height: 100%;
+	display: table;
+}
+header nav .tbl .tbl_cell {
+    vertical-align: top;
+    display: table-cell;
+    padding: 80px 0 0 20px;
+}
+header nav .tbl .tbl_cell li {
+	padding: 10px 0;
+}
+
+.header_left{
+    position: absolute;
+    top: 3px;
+    left: 20px;
+    z-index: 9999;
+    width: 40px;
+    height: 23px;
+}
+.header_left button {
+	cursor: pointer;
+	 -moz-outline:none; 
+	 outline:none;
+	 border: none;
+	 background-color: transparent; 
+}
+
+.header_left .hambeger_first{
+	width: 30px;
+	height: 2px;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+.header_left .hambeger_two{
+	width: 20px;
+	height: 2px;
+    margin-bottom: 5px;
+    background-color: #fff;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+		    transition: all .3s ease-in-out;
+}
+.header_left .hambeger_three{
+	width: 15px;
+    height: 2px;
+    background-color: #fff;
+	-webkit-transition: all .3s ease-in-out;
+	   -moz-transition: all .3s ease-in-out;
+	    -ms-transition: all .3s ease-in-out;
+		 -o-transition: all .3s ease-in-out;
+		    transition: all .3s ease-in-out;
+}
+header.hambeger_show .hambeger_first {
+	width: 30px;
+	transform: rotate(45deg);
+	position: absolute;
+	left: 6px;
+    margin: 0;
+    background-color: #fff;
+}
+header.hambeger_show .hambeger_two {display: none;}
+header.hambeger_show .hambeger_three {
+	width: 30px;
+    transform: rotate(-45deg);
+    position: absolute;
+    left: 6px;
+    background-color: #fff;
+}
+.header_right {
+	position: absolute;
+	top: 5px;
+    right: 20px;
+	z-index: 999;
+}
+.header_right .large_contents{
+	color: #000;
+}
+
+.large_contents .manu,
+.header_bg .manu,
+.small_contents .manu{
+	color: #fff;
+}
+} 
+/* mobile header 디자인 끝 */
+/* mobile 컨텐츠 매인 배너 작업 시작 */
+@media only screen and (min-width: 320px) {
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } 
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.background {
+	width: 100%;
+	height: 100%;
+	background-image: url('https://source.unsplash.com/user/vorosbenisop/');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.bg .mobile_index_wrapper,
+.bg .mobile_wrapper{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	right: -2800px;
+	background-color: rgba(0, 0, 0, 0.65);
+	z-index: 0;
+	overflow: hidden;
+	-webkit-transition: all .25s ease-in-out;
+	   -moz-transition: all .25s ease-in-out;
+	     -o-transition: all .25s ease-in-out;
+		-ms-transition: all .25s ease-in-out;
+			transition: all .25s ease-in-out;
+}
+.bg .mobile_wrapper.active,
+.bg .mobile_index_wrapper.active{
+	right: 0;
+}
+h3.tit_28 {color:#fff;}
+.mobile_index_wrapper .fld,
+.mobile_wrapper .fld {
+	width: 80%;
+	margin: 0 auto;
+}
+.fld .input_inner .inp {
+	border-top: none; 
+	border-left: none;
+	border-right: none;
+	padding: 12px 0;
+	color: #fff;
+	border-radius:0; 
+	background-color:transparent; 
+}
+.inp::placeholder {
+    color: #fff;
+    opacity: 1; /* Firefox */
+}
+.inp::-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #fff;
+}
+.inp::-ms-input-placeholder { /* Microsoft Edge */
+   color: #fff;
+}
+.input_wh {
+    text-align: left;
+}
+.input_wh .login_btn_inner {
+	margin-top:25px; 
+	color: #fff;
+}
+.input_wh .login_btn_inner .login_btn {
+	width: 100%;
+	padding: 20px 0;
+	text-align: center;
+	border: 1px solid #fff;
+	-webkit-transition: all .2s ease-in-out;
+	   -moz-transition: all .2s ease-in-out;
+		 -o-transition: all .2s ease-in-out;
+		-ms-transition: all .2s ease-in-out;
+			transition: all .2s ease-in-out;
+}
+.input_wh .login_btn_inner .login_btn:hover{
+	border-color:#ed3c5f;
+	color: #ed3c5f;
+}
+}
+/* mobile 컨텐츠 매인 배너 작업 끝 */
+/*moblie 컨텐츠 매인 영화예매,이벤트 리스트 작업 시작*/
+@media only screen and (min-width: 320px) {
+	.mobile_post_list .tabs {
+		width: auto;
+		font-size: 0;
+	}
+	.mobile_post_list .tab_warp {
+		margin: 20px 0;
+	}
+	.mobile_post_list .tabs li,
+	.mobile_event_list .tabs_event li{
+		float: left;
+		margin: 20px 1.0rem 20px 0;
+		padding-bottom:7px; 
+		color: rgba(51, 51, 51, 0.5);
+		border-bottom: 2px solid transparent;
+	}
+	.mobile_post_list .tabs li.active,
+	.mobile_event_list .tabs_event li.active{
+		border-bottom: 2px solid #ed3c5f;
+		color: #333;
+	}
+	.tabcontent .mobile_post_reservation{
+		text-align: center;
+	}
+	.tabcontent .mobile_event_reservation {
+		text-align: left;
+	}
+	.tabcontent .mobile_post_reservation h3,
+	.tabcontent .mobile_event_reservation h3 {
+		margin: 10px 0;
+	}
+	.tabcontent .mobile_post_reservation p,
+	.tabcontent .mobile_event_reservation p {
+		margin: 10px 0;
+	}
+	.tabcontent .mobile_post_reservation a,
+	.tabcontent .mobile_event_reservation a {
+		border: 1px solid rgb(171, 171, 171);
+		border-radius:5px; 
+		padding: 10px 30px;
+	}
+
+}
+/*moblie 컨텐츠 매인 영화 리스트 작업 끝*/
+/* mobile 컨텐츠 매인 영화 광고(배너) 작업 시작 */
+.bnr {
+	margin: 40px 0;
+	text-align: center;
+	background-color: #36130d;
+}
+.bnr img{
+	width: 100%;
+}
+/* mobile 컨텐츠 매인 영화 광고(배너) 작업 끝 */
+/* mobile 컨텐츠 매인 영화 이벤트 작업 시작 */
+.mobile_event_list{
+	border-bottom: 1px solid #d9d9d9;
+	padding-bottom: 50px;
+	margin-bottom: 35px;
+}
+.mobile_event_list .tab_warp h2 {margin-bottom: 30px;}
+.mobile_event_list .tabcontent .item {
+	/* width: 300px; */
+}
+.mobile_event_list .tabcontent .item a{width: 100%;}
+.mobile_event_list .tabcontent .item img{
+	width: 100%;
+}
+.tabcontent .event_inner {
+	padding: 15px;
+	box-sizing: border-box;
+	background-color: #f6f6f6;
+	position: relative;
+}
+/* mobile 컨텐츠 매인 영화 이벤트 작업 끝 */
+/* mobile 컨텐츠 매인 영화 무비박스 작업 시작 */
+
+.tabcontent .event_inner span {
+	display: block;
+	margin: 0 0 10px 0;
+}
+.tabcontent .event_inner .d_day {
+	position: absolute;
+	right: 15px;
+	bottom: 12px;
+}
+/* mobile 컨텐츠 매인 영화 무비박스 작업 끝 */
+/* mobile 컨텐츠 매인 영화 공지사항 작업 시작 */
+.mobile_notice_list .mobile_notice_warp h2{
+	margin-bottom: 20px;
+}
+.tab_action_notice .item .notice_inner {
+	border-bottom:1px solid #e6e6e6; 
+}
+.tab_action_notice .item .notice_inner a {
+	margin: 10px 0;
+}
+.tab_action_notice .item .notice_inner p {
+	margin-bottom: 10px;
+}
+.tabcontent li.item{
+	margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* mobile 컨텐츠 매인 영화 공지사항 작업 끝 */

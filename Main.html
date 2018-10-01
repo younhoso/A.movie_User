@@ -1,0 +1,495 @@
+<!--<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>-->
+<!DOCTYPE html>
+<html>
+<head> 
+	<meta charset="UTF-8">
+	<title>A.MOVIE</title>
+    <meta name="viewport" content="width=device-width Initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <!--DESIGN CSS-->
+    <link rel="stylesheet" href="./main/css/Pluggins/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="./main/css/Pluggins/jquery.rateyo.css">
+    <link rel="stylesheet" href="./main/fontello/css/fontello-embedded.css">
+    <link rel="stylesheet" href="./main/css/module.css">
+    <link rel="stylesheet" href="./main/css/D_module.css">
+    <link rel="stylesheet" href="./main/css/style.css">
+</head>
+<body>
+<!--헤더 디자인 시작-->
+    <header class="header_pc">
+        <div class="l_wrapper">
+            <nav>
+                <ul class="list_inner">
+                    <li class="large_contents"><a class="tit_16" href="#0">Movie</a>
+                        <ul class="small_contents" style="display:none;">
+                            <li><a href="#0">movie reservations</a></li>
+                            <li><a href="#0">Confirm/Cancel Reservation</a></li>
+                        </ul>
+                    </li>
+                    <li class="large_contents"><a class="tit_16" href="#0">Notice</a></li>
+                    <li class="large_contents"><a class="tit_16" href="#0">Event</a></li>
+                    <li class="large_contents"><a class="tit_16" href="#0">My Page</a>
+                        <ul class="small_contents" style="display:none;">
+                            <li><a href="#0">My Information</a></li>
+                            <li><a href="#0">Reservation details</a></li>
+                            <li><a href="#0">Point</a></li>
+                        </ul>
+                    </li>
+                    <li class="large_contents"><a class="tit_16" href="#0">Login</a></li>
+                </ul> 
+                <a class="tit_24 login" href="#0">A.MOVIE</a>
+            </nav>
+        </div>
+        <!-- 로그인 작업 시작 -->
+        <div class="form_wrapper">
+            <form action="" class="table_middle fld">
+                <div class="table_cell_middle input_wh">
+                    <h3 class="tit_28">Login</h3>
+                    <div class="input_inner">
+                        <input type="text" placeholder="아이디" required class="inp in_e_Dpink txt_14">
+                    </div>
+                    <div class="input_inner">
+                        <input type="password" placeholder="비밀번호" required class="inp in_e_Dpink txt_14">
+                    </div>
+                    <div class="login_btn_inner">
+                        <p class="clearfix"><a class="txt_14" href="agreement.html">회원가입</a></p>
+                        <p><a class="txt_14" href="id_lost.html">아이디</a></p>
+                        <span class="txt_14">.</span>
+                        <p><a class="txt_14" href="id_lost.html">비밀번호 찾기</a></p>
+                        <a href="#0" class="login_btn">Login</a>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- 로그인 작업 끝 -->
+    </header>
+<!--헤더 디자인 시작-->
+<!-- 영화 매인 리스트 디자인 시작-->
+    <div class="content_wrap">
+        <div class="content_inner">
+            <div id="content-5" class="content">
+                <ul class="clearfix">
+                    <li class="pc_list">
+                        <a class="front" href="#0">
+                            <img class="img" src="./main/img/Poster/신과 함께 - 인과 연.jpg" alt="신과 함께">
+                        </a>
+                        <div class="bg">
+                            <div class="hide_content table_middle">
+                                <ul class="table_cell_middle">
+                                    <li><a class="deteilBtn" href="#0">상세보기</a></li>
+                                    <li><a class="reserveBtn" href="#0">예매하기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="title" title="물괴" style="display: none;">
+                            <h3>신과 함께 - 인과 연</h3>
+                            <p class="text" style="display: none;">“인왕산에 흉악한 짐승이 나타나 사람을 해쳤다 하옵니다. 그것을 두고 듣지도 보지도 못한 짐승이라 하여 사물 물(物), 괴이할 괴(怪), 물괴라 부른다 하옵니다.”
+                            중종 22년, 거대한 물괴가 나타나 백성들을 공격하기 시작한다. 물괴와 마주친 백성들은 그 자리에서 잔인하게 죽임을 당하거나 
+                            살아남아도 역병에 걸려 끔찍한 고통 속에 결국 죽게 되고, 한양은 삽시간에 공포에 휩싸인다. 모든 것이 자신을 몰아세우는 영의정과 관료들의 계략이라 여긴 중종은 
+                            옛 내금위장 윤겸을 궁으로 불러들여 수색대를 조직한다.</p>
+                        </div>
+                    </li>
+                    
+                    <li class="pc_list">
+                        <a class="front" href="#0">
+                            <img class="img" src="./main/img/Poster/너의 결혼식.jpg" alt="너의 결혼식">
+                        </a>
+                        <div class="bg">
+                            <div class="hide_content table_middle">
+                                <ul class="table_cell_middle">
+                                    <li><a class="deteilBtn" href="#0">상세보기</a></li>
+                                    <li><a class="reserveBtn" href="#0">예매하기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="title" title="서치" style="display: none;">
+                            <h3>너의 결혼식</h3>
+                            <p class="text" style="display: none;">목요일 11:30 PM 딸의 부재중 전화 3통 그리고 딸이 사라지다 목요일 저녁, 딸 마고에게 걸려온 부재중 전화 3통
+                                아빠 데이빗은 그 후 연락이 닿지 않는 딸이 실종됐음을 알게 된다. 경찰의 조사는 본격적으로 시작되지만
+                                결정적인 단서들이 나오지 않는 가운데, 실종된 날 밤 마고가 향하던 곳이 밝혀지며 새로운 사실들이 발견된다.</p>
+                        </div>
+                    </li>
+                    <li class="pc_list">
+                        <a class="front" href="#0">
+                            <img class="img" src="./main/img/Poster/목격자.jpg" alt="목격자">
+                        </a>
+                        <div class="bg">
+                            <div class="hide_content table_middle">
+                                <ul class="table_cell_middle">
+                                    <li><a class="deteilBtn" href="#0">상세보기</a></li>
+                                    <li><a class="reserveBtn"  href="#0">예매하기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="title" title="너의 결혼식" style="display: none;">
+                            <h3>목격자</h3>
+                            <p class="text" style="display: none;">기억하나요? 당신의 첫사랑 고3 여름, 전학생 ‘승희’(박보영)를 보고 첫눈에 반한 ‘우연’(김영광).
+                                승희를 졸졸 쫓아다닌 끝에 마침내 공식커플로 거듭나려던 그때!
+                                잘 지내라는 전화 한 통만 남긴 채 승희는 사라져버리고,
+                                우연의 첫사랑은 그렇게 막을 내리는 듯했다.</p>
+                        </div>
+                    </li>
+                    <li class="pc_list">
+                        <a class="front" href="#0">
+                            <img class="img" src="./main/img/Poster/물괴.jpg" alt="물괴">
+                        </a>
+                        <div class="bg">
+                            <div class="hide_content table_middle">
+                                <ul class="table_cell_middle">
+                                    <li><a class="deteilBtn" href="#0">상세보기</a></li>
+                                    <li><a class="reserveBtn"  href="#0">예매하기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                         <div class="title" title="안시성" style="display: none;">
+                            <h3>물괴</h3>
+                            <p class="text" style="display: none;">우리는 물러서는 법을 배우지 못했다! 우리는 무릎 꿇는 법을 배우지 못했다! 
+                                우리는 항복이라는 걸 배우지 못했다! 천하를 손에 넣으려는 당 태종은 수십만 대군을 동원해 고구려의 변방 안시성을 침공한다. 
+                                20만 당나라 최강 대군 VS 5천명의 안시성 군사들. 40배의 전력 차이에도 불구하고, 안시성 성주 양만춘과 전사들은 당나라에 맞서 싸우기로 결심하는데… </p>
+                        </div>
+                    </li>
+                    <li class="pc_list">
+                        <a class="front" href="#0">
+                            <img class="img" src="./main/img/Poster/상류사회.jpg" alt="상류사회">
+                        </a>
+                        <div class="bg">
+                            <div class="hide_content table_middle">
+                                <ul class="table_cell_middle">
+                                    <li><a class="deteilBtn" href="#0">상세보기</a></li>
+                                    <li><a class="reserveBtn" href="#0">예매하기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="title" title="안시성" style="display: none;">
+                            <h3>상류사회</h3>
+                            <p class="text" style="display: none;">우리는 물러서는 법을 배우지 못했다! 우리는 무릎 꿇는 법을 배우지 못했다!
+                                우리는 항복이라는 걸 배우지 못했다! 천하를 손에 넣으려는 당 태종은 수십만 대군을 동원해 고구려의 변방 안시성을 침공한다.
+                                20만 당나라 최강 대군 VS 5천명의 안시성 군사들. 40배의 전력 차이에도 불구하고, 안시성 성주 양만춘과 전사들은 당나라에 맞서 싸우기로 결심하는데… </p>
+                        </div>
+                    </li>
+                    <li class="pc_list">
+                        <a class="front" href="#0">
+                            <img class="img" src="./main/img/Poster/서치.jpg" alt="서치">
+                        </a>
+                        <div class="bg">
+                            <div class="hide_content table_middle">
+                                <ul class="table_cell_middle">
+                                    <li><a class="deteilBtn" href="#0">상세보기</a></li>
+                                    <li><a class="reserveBtn" href="#0">예매하기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="title" title="안시성" style="display: none;">
+                            <h3>서치</h3>
+                            <p class="text" style="display: none;">우리는 물러서는 법을 배우지 못했다! 우리는 무릎 꿇는 법을 배우지 못했다!
+                                우리는 항복이라는 걸 배우지 못했다! 천하를 손에 넣으려는 당 태종은 수십만 대군을 동원해 고구려의 변방 안시성을 침공한다.
+                                20만 당나라 최강 대군 VS 5천명의 안시성 군사들. 40배의 전력 차이에도 불구하고, 안시성 성주 양만춘과 전사들은 당나라에 맞서 싸우기로 결심하는데… </p>
+                        </div>
+                    </li>
+                    <li class="pc_list">
+                        <a class="front"  href="#0">
+                            <img class="img" src="./main/img/Poster/안시성.jpg" alt="안시성">
+                        </a>
+                        <div class="bg">
+                            <div class="hide_content table_middle">
+                                <ul class="table_cell_middle">
+                                    <li><a class="deteilBtn" href="#0">상세보기</a></li>
+                                    <li><a class="reserveBtn" href="#0">예매하기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="title" title="안시성" style="display: none;">
+                            <h3>안시성</h3>
+                            <p class="text" style="display: none;">우리는 물러서는 법을 배우지 못했다! 우리는 무릎 꿇는 법을 배우지 못했다!
+                                우리는 항복이라는 걸 배우지 못했다! 천하를 손에 넣으려는 당 태종은 수십만 대군을 동원해 고구려의 변방 안시성을 침공한다.
+                                20만 당나라 최강 대군 VS 5천명의 안시성 군사들. 40배의 전력 차이에도 불구하고, 안시성 성주 양만춘과 전사들은 당나라에 맞서 싸우기로 결심하는데… </p>
+                        </div>
+                    </li>
+                    <li class="pc_list">
+                        <a class="front" href="#0">
+                            <img class="img" src="./main/img/Poster/암수살인.jpg" alt="암수살인">
+                        </a>
+                        <div class="bg">
+                            <div class="hide_content table_middle">
+                                <ul class="table_cell_middle">
+                                    <li><a class="deteilBtn" href="#0">상세보기</a></li>
+                                    <li><a class="reserveBtn" href="#0">예매하기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="title" style="display: none;">
+                            <h3>암수살인</h3>
+                            <p class="text" style="display: none;">우리는 물러서는 법을 배우지 못했다! 우리는 무릎 꿇는 법을 배우지 못했다!
+                                우리는 항복이라는 걸 배우지 못했다! 천하를 손에 넣으려는 당 태종은 수십만 대군을 동원해 고구려의 변방 안시성을 침공한다.
+                                20만 당나라 최강 대군 VS 5천명의 안시성 군사들. 40배의 전력 차이에도 불구하고, 안시성 성주 양만춘과 전사들은 당나라에 맞서 싸우기로 결심하는데… </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+<!-- 영화 매인 리스트 디자인 끝-->
+<!-- 팝업 예매하기 디자인 시작-->
+            <div class="pop_up_bg" style="display: none">
+                <div class="pop_up_post"> 
+                    <div class="pop_up_post_inner clearfix">
+                      <div class="pop_up_right">
+                           <div class="cinema_wrapper">
+                                <h2 class="tit_24">영화관 선택</h2>
+                                <p class="txt_14">선택하신 영화가 상영되는 영화관만 나옵니다.</p>
+                                <div id="content-6" class="content area_wrapper">
+                                    <ul class="area_inner">
+                                        <li class="area_list">
+                                            <a href="#0">서울</a>
+                                            <div class="soul_wrap active">
+                                                <ul class="cinema_inner">
+                                                    <li class="cinema_list"><a href="#0">강남</a></li>
+                                                    <li class="cinema_list"><a href="#0">강남대로(씨티)</a></li>
+                                                    <li class="cinema_list"><a href="#0">강동</a></li>
+                                                    <li class="cinema_list"><a href="#0">군자</a></li>
+                                                    <li class="cinema_list"><a href="#0">동대문</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="area_list">
+                                            <a href="#0">경기</a>
+                                            <div class="soul_wrap">
+                                                <ul class="cinema_inner">
+                                                    <li class="cinema_list"><a href="#0">고양스타필드</a></li>
+                                                    <li class="cinema_list"><a href="#0">김포</a></li>
+                                                    <li class="cinema_list"><a href="#0">김포한강신도시</a></li>
+                                                    <li class="cinema_list"><a href="#0">남양주</a></li>
+                                                    <li class="cinema_list"><a href="#0">동탄</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="area_list"><a href="#0">인천</a></li>
+                                        <li class="area_list"><a href="#0">강원</a></li>
+                                        <li class="area_list"><a href="#0">대전/충전</a></li>
+                                        <li class="area_list"><a href="#0">광주/전라</a></li>
+                                        <li class="area_list"><a href="#0">대구/울산/부산</a></li>
+                                        <li class="area_list"><a href="#0">경상/제주</a></li>
+                                    </ul>
+                                </div>
+                           </div>
+                            <div class="d_day_wrapper">
+                                <h2 class="tit_24">날짜</h2>
+                                <input type="date">
+                            </div>
+                            <div id="content-7" class="content time_wrapper">
+                                <h2 class="tit_24">시간</h2>
+                                <div class="course_sort_wrap">
+                                    <ul class="course_sort">
+                                        <li class="course_sort_list">
+                                            <p>1관</p>
+                                            <a href="#0">12:00 ~ 14:00</a>
+                                        </li>
+                                        <li class="course_sort_list">
+                                            <p>3관</p>
+                                            <a href="#0">15:00 ~ 17:00</a>
+                                        </li>
+                                        <li class="course_sort_list">
+                                            <p>5관</p>
+                                            <a href="#0">17:20 ~ 19:20</a></li>
+                                        <li class="course_sort_list">
+                                            <p>7관</p>
+                                            <a href="#0">20:00 ~ 22:00<a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="screen_wrapper">
+                                <div class="screen_inner">
+                                   <!-- 가격 금액 설정 -->
+                                    <div class="bookingSelectSeatTicket">
+                                        <span id="adult" class="tit_16">
+                                            <a href="#" class="cnt_btn minus tit_18">-</a>
+                                            <div class="ticket_inner">
+                                                <label data="9000">일반</label>
+                                                <label class="reserveCnt">0</label>
+                                            </div>
+                                            <a href="#" class="cnt_btn plus tit_18">+</a>
+                                        </span>
+                                        <span id="student" class="tit_16">
+                                           <a href="#" class="cnt_btn minus tit_18">-</a>
+                                           <div class="ticket_inner">
+                                                <label data="7000">청소년</label>
+                                                <label class="reserveCnt">0</label>
+                                            </div>
+                                            <a href="#" class="cnt_btn plus tit_18">+</a>
+                                        </span>
+                                        <span id="child" class="tit_16">
+                                           <a href="#" class="cnt_btn minus tit_18">-</a>
+                                           <div class="ticket_inner">
+                                                <label data="5000">어린이</label>
+                                                <label class="reserveCnt">0</label>
+                                            </div>
+                                            <a href="#" class="cnt_btn plus tit_18">+</a>
+                                        </span>
+                                    </div>
+                                    <!-- 좌측 테이블 좌석 영역 -->
+                                    <img src="./main/img/screen.png" alt="스크린">
+                                    <p class="screen_tit tit_18">SCREEN</p>
+                                    <div class="jacet_wrap">
+                                        <ul class="screen_number">
+                                            <li class="number">1</li>
+                                            <li class="number">2</li>
+                                            <li class="number">3</li>
+                                            <li class="number">4</li>
+                                        </ul>
+                                        <ul class="screen_line">
+                                            <li class="line">A</li>
+                                            <li class="line">B</li>
+                                            <li class="line">C</li>
+                                        </ul>
+
+                                        <table>
+                                            <tr>
+                                                <td class="default"></td>
+                                                <td class="default"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="default"></td>
+                                                <td class="default"></td>
+                                                <td class="default"></td>
+                                                <td class="default"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="default"></td>
+                                                <td class="default"></td>
+                                                <td class="default"></td>
+                                                <td class="default"></td>
+                                            </tr>
+                                        </table>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--pop_up 영화 제목 및 토탈 가격 알려줌-->
+                        <div class="pop_up_left">
+                            <img id="reserveStillImg" alt="영화 포스터"/>
+                        </div>  
+                        <div class="pop_up_left_bottom  tit_24">
+                            <div class="pop_up_left_inner">
+                                <h3 id="reserveMovieName" class="tit_26">영화제목</h3>
+                                <div class="total_pip tit_24">
+                                    <strong id="ticketTotalPrice" class="tit_24">0</strong>원
+                                </div>
+                            </div>
+                            <p id="movieText" class="movietext"></p>
+                        </div>
+                        <!--pop_up 영화 제목 및 토탈 가격 알려줌 끝-->
+                        <!-- 결제 확인 버튼 디자인 시작 -->
+                        <!-- <div class="payment_btn">
+                            <button class="txt_16">취소</button>
+                            <button class="txt_16">결제하기</button>
+                        </div> -->
+                        <!-- 결제 확인 버튼 디자인 끝 -->
+                    </div>
+                </div>
+            </div>
+<!-- 팝업 예매하기 디자인 끝-->
+<!-- 팝업 상세페이지 디자인 시작-->
+            <div class="derail_pop_up_wrap" style="display: none">
+                <div class="l_wrapper derail_pop_up">
+                    <div class="derail_pop_up_header clearfix">
+                        <div class="derail_pop_up_left">
+                            <div class="tit_26">
+                                <p class="derail_pop_bg">12</p>
+                                <h2 id="reserveDetaileName" class="derail_pop_tit">안시성</h2>
+                            </div>
+                        </div>
+                        <div class="derail_pop_up_right">
+                            <a class="txt_14" href="#0">예매하기</a>
+                        </div>
+                    </div>
+                    <div class="derail_pop_up_contents">
+                        <div class="derail_pop_up_infort">
+                            <div class="derail_pop_up_inner">
+                                <p class="txt_14">개봉일 : <span>2018.09.19</span></p>
+                                <p class="txt_14">감독 : <span>조인성(양만춘), 남주혁(사물), 박성웅(당태종 이세민)</span></p>
+                                <p class="txt_14">장르 : <span>액션, 사극 / 135 분</span></p>
+                                
+                            </div>
+                            <div class="rating_btn_right txt_18">
+                                <a href="#0"><i class="icon-heart"></i>보고싶어</a>
+                                <a href="#0">상영시간표</a>
+                            </div>
+                            <!-- 영화 줄거리 내용 시작-->
+                            <div id="movieCommentList" class="list">
+                                <div class="item">
+                                    <div class="tit_24">
+                                        <h3>줄거리</h3>
+                                        <p>우리는 물러서는 법을 배우지 못했다!우리는 무릎 꿇는 법을 배우지 못했다!
+                                            우리는 항복이라는 걸 배우지 못했다!천하를 손에 넣으려는 당 태종은 수십만 대군을 동원해 고구려의 변방 안시성을 침공한다.
+                                            20만 당나라 최강 대군 VS 5천명의 안시성 군사들.
+                                            40배의 전력 차이에도 불구하고, 안시성 성주 양만춘과 전사들은 당나라에 맞서 싸우기로 결심하는데…
+                                            동아시아 역사상 가장 위대한 승리를 이끈 안시성 전투가 시작된다!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 영화 줄거리 내용 끝-->
+                        </div>
+                        <div class="derail_pop_up_img">
+                            <img id="reserveDetaileImg" src="./main/img/Poster/안시성.jpg" alt="안시성">
+                        </div>
+                        
+                    </div>
+                    <div class="derail_pop_up_footer">
+                        <div class="derail_pop_up_footer_comments clearfix">
+                            <h3 class="tit_18">한줄평 (<span id="movieCommentTotalCount">0</span>)</h3>
+                            <!--  댓글  -->
+                            <div class="popup_box clearfix">
+                                <!-- 댓글 등록 -->
+                                <div class="input">
+                                    <div class="btn_wrap">
+                                        <button id="saveBtn" class="comment_btn txt_16" value="등록">등록</button>
+                                    </div>
+                                    <div class="textarea">
+                                        <textarea title="댓글쓰기" name="comment" id="content" cols="30" rows="10" maxlength="100"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- 평점 시작 -->
+                            <div class="rating">
+                                <div class="my_rate txt_16">
+                                    <div id="rateYo" class="star_rating" style="display: inline-block; width: 100px;"></div>
+                                    <input class="rateYoee" type="text" value=""/>
+                                    <div id="movieDetailStarScoreTxt" class="star_score txt_14">평점을 입력해주세요</div>
+                                </div>
+                            </div>
+                            <!-- 평점 시작 끝-->
+                            <div id="movieCommentList" class="list_content">
+                                <ul class="item">
+                                    <!-- 동적으로 생성되어야 하는 댓글  -->
+                                    <!-- <li>
+                                        <div class="photo_profile">
+                                            <img src="http://image2.megabox.co.kr/mop/home/user/profile_m.png" alt="interpret** 프로필사진 없음">
+                                        </div>
+                                        <div class="text">
+                                            <div class="name">
+                                                <div class="name_inner">
+                                                    <strong>sangss**</strong>
+                                                    <span>18.10.03</span>
+                                                </div>
+                                            </div>
+                                            <p>
+                                                <span class="comment">반전이 좋네요ㅎㅎ 볼만합니다~</span>
+                                            </p>
+                                        </div>
+                                    </li> -->
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!-- 팝업 상세페이지 디자인 끝-->
+        </div>
+    </div>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.12.1/jquery.min.js'></script>
+<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script type='text/javascript' src="./main/js/Pluggins/jquery.mCustomScrollbar.concat.min.js"></script>
+<script type='text/javascript' src="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.js"></script>
+<script type='text/javascript' src="./main/js/common.js"></script>
+<script type='text/javascript' src="./main/js/main.js"></script>
+</body>
+</html>

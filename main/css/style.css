@@ -1109,6 +1109,7 @@ form .step_btn {
     }
     .list_content .item li .text {width: 500px;}
     .list_content .item li .text .name_inner{margin: 0 0 0 60px;}
+     .list_content .item li .text .name_inner strong {margin: 0 15px 0 0}
 
     
 

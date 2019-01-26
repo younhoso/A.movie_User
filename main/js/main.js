@@ -1,3 +1,18 @@
+// input에 글씨가 비어있으면 버튼 비활성화, 
+// input에 글씨가 있으면 버튼 활성화
+function button() {
+    var $email = $('#email-input').val()
+    var $password = $('#password-input').val()
+    if($email === '' || $password === ''){
+      $('#submit-btn').css('background-color', '#9B9B9B')
+    }else if($email.length > 0 || $password.length > 0){
+      $('#submit-btn').css('background-color', '#1BBC9B');
+    }
+  }
+$('#email-input').on('input', button);
+$('#password-input').on('input', button);
+
+
 // 한글입력 방지 함수
 function fn_press_han(obj) {
     //좌우 방향키, 백스페이스, 딜리트, 탭키에 대한 예외
